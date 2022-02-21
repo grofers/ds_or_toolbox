@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample Page should match the snapshot on page load 1`] = `
+<DocumentFragment>
+  <main>
+    <section>
+      Sample Header
+    </section>
+    <section>
+      Sample Form
+    </section>
+    <section>
+      Sample Table
+    </section>
+  </main>
+</DocumentFragment>
+`;

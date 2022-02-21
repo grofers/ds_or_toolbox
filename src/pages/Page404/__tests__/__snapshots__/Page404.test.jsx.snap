@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page404 should match the snapshot on page load 1`] = `
+<DocumentFragment>
+  <main>
+    <h1
+      class="ant-typography"
+    >
+      Page /404 does not exist
+    </h1>
+    <span
+      class="ant-typography"
+    >
+      Go back 
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </span>
+  </main>
+</DocumentFragment>
+`;

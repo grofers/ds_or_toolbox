@@ -1,0 +1,52 @@
+{
+  "name": "atlas-ui-starter-template",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@atlas/core": "grofers/atlas-ui",
+    "@sentry/react": "^5.20.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4"
+  },
+  "scripts": {
+    "cy:run:chrome": "$(npm bin)/cypress run --headless -b chrome",
+    "cy:run:firefox": "$(npm bin)/cypress run --headless -b firefox",
+    "cy:open": "$(npm bin)/cypress open",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env jest-environment-jsdom-sixteen",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache --env jest-environment-jsdom-sixteen",
+    "eject": "react-scripts eject",
+    "serve": "$(npm bin)/serve -s build -l 3000"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.3",
+    "@testing-library/user-event": "^12.0.11",
+    "cypress": "^4.10.0",
+    "cypress-file-upload": "^4.0.7",
+    "cypress-image-snapshot": "^3.1.1",
+    "eslint-plugin-cypress": "^2.11.1",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "prettier": "^2.0.5",
+    "serve": "^11.3.2"
+  }
+}
